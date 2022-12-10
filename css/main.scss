@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit' ;
+    overflow: hidden;
+}
+
+.container{
+    width: 301px;
+    height: 500px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 10px 11px;
+    border-radius: 10px;
+    box-shadow: 20px 10px 60px #00001a,
+               -10px -10px 50px #00001a;
+
+}
+.image-svg{
+    position: relative;
+.image{
+    width: 280px;
+    height: 260px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.svg{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: -263px;
+    width: 280px;
+    height: 260px;
+    background-color:hsl(178, 100%, 50%);
+    opacity: .4;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+}
+.svg:active{
+    cursor: pointer;
+    opacity: .6;    
+}
+}
+.title{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    .equi{
+        font-size: 20px;
+        font-weight: 600;
+        a{
+            text-decoration: none;
+            color: hsl(0, 0%, 100%);
+        }
+    }
+    a:active{
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+    }
+}
+.discript{
+    color:hsl(215, 51%, 70%);
+    .embrem{
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+.above{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 32%, 27%);;
+    .value{
+        display: flex;
+        .eth{
+            margin-left: 8px;
+            margin-top: -1px;
+            color: hsl(178, 100%, 50%)
+            
+        }
+    }
+    .time{
+        display: flex;
+        
+        .days{
+            margin-left: 8px;
+            margin-top: -1px;
+            color:hsl(215, 51%, 70%);
+        }
+    }
+}
+
+.creator{
+    display: flex;
+    padding-top: 17px;
+    img{
+        width: 35px;
+        height: 35px;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin-top: -5px;
+    }
+    .person{
+        color:hsl(215, 51%, 70%);
+        margin-left: 15px;
+        margin-top: -1px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        .name{
+            text-decoration: none;
+            color: hsl(0, 0%, 100%);
+        }
+    }
+    .name:active{
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+    }
+}
